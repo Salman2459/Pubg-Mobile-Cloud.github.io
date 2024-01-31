@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+  /* span  */
+.red_color{
+    color: red;
+}
+
+/* Container Start  */
+.container{
+    color:aliceblue;
+    background-color: rgb(22, 22, 23);
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top:0;
+}
+
+/* Heading  */
+.heading{
+    text-align: center;
+    font-size: 42px;
+    margin-top: 70px;
+
+}
+
+/* Text  */
+.text{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* logo  */
+
+.logo{
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    width: 150px;
+    height:150px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.4s  ease-in-out;
+}
+.logo:hover{
+    box-shadow: 3px 5px 5px rgb(71, 71, 71);
+    width: 170px;
+    height: 170px;
+}
+
+/* gif  */
+#gif{
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+/* tec-img  */
+.tec-img{
+    position: absolute;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+
+  /* karfton lading  */
+  .load{
+    width: 100%;
+    height: 100vh;
+    display: none;
+  }
+
+  /* login */
+  #login{
+    background-image: url("img/login main.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    position: fixed;
+    display:none;
+  }
+
+  .guest{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin: auto;
+    top: 24em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    display:none;
+  }
+
+  #guest_text{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 85%;
+    font-size: 22px;
+    font-weight: bold;
+    display: none;
+  }
+
+  /* lodi */
+  .lodi{
+    width: 100%;
+    height: 100vh;
+    display: none;
+  }
+ 
+  @media screen and (max-width: 950px) {
+    #login{
+      background-image: url("img/login main mobile.jpg");
+    }
+    .guest{
+      right: 28em;
+      top: 0;
+    }
+  }
